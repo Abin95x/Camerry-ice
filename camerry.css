@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar-nav{
+    margin-left: 235px;
+}
+.navbar-nav li {
+    margin-left: -33px;
+    margin-right: 57px;
+    font-size: 0.813rem;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+.navbar-nav li a{
+    color: aliceblue !important;
+}
+.nav-icons {
+    cursor: pointer;
+    filter: invert(100%);
+    margin-inline-end: 100px;
+}
+.nav-icons li{
+    display: inline;
+    padding-left: 20px;
+}
+#navbar{
+    width: 100%;
+    transition: all 0.5s;   
+}
+.navbar-scrolled{
+    background-color: #000000;
+    box-shadow: 0 3px 10px rgba(0, 0, 0,0.15);
+}
+.navbar-toggler-icon{
+    filter: invert(100%); 
+}
+.background{
+    width: 100% !important;
+    background-color: #9c4041;
+    height: 700px;
+    background-image: url(/assets/img/pic1.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+}
+.nav-link:hover{
+    color: gray!important;
+}
+.icon-hov:hover{
+    color: gray!important;
+}
+.sec2{
+    background-color: #9c4041;
+    width: 100%;   
+    font-family: 'Montserrat', sans-serif; 
+}
+.class1 img{
+    width: 100%;
+    margin-left: 30px;  
+}
+.class2 .col-xs-4{
+    text-align: center;
+}
+.class2 .h1{
+    font-size: 4.0vmax;   
+}
+.class2 p{
+    color: #ffffff;
+}
+.sec2 button{
+    width: 125px;
+    height: 45px;
+}
+.sec3{
+    padding-top: 35px;
+    background-color: #1c1c1c;
+    width: 80%;
+    color: #7c682a;
+    font-family: Montserrat , sans-serif; 
+}
+.class3 {
+    font-size: 11px;
+    color: #d1bd74;
+    letter-spacing: 1px;
+    text-align: center;  
+}
+.text{
+    margin-left: 12px;
+}
+.t1{
+    font-size: 28px;
+    color: #7c682a;
+    text-align: left;
+}
+.sec4{
+    background-color: #1c1c1c;
+    width: 100%;
+}
+.sec4 ul{
+    list-style-type: none;
+    margin-left: 100px;  
+ }
+.sec4 a{
+    text-decoration: none;
+    color: #d8b740;
+    opacity: 80%;   
+}
+.class6 ul{
+    margin-right: 119px;
+}
+.class6-1{
+    margin: auto;
+}
+@media  (min-width: 767px) {
+    .t1{
+        font-size: 26px;
+     
+    }
+}
+@media (max-width:574px) {
+    .bgimg{
+        height: 100vh;
+    }
+}
+#scroll-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    width:27px;
+    border-radius: 20px;
+    background-color: gray;
+  }
+
+
